@@ -33,6 +33,24 @@ final class ScriptRunnerViewModel: ObservableObject {
             name: "List Areas",
             description: "Fetches the names of all areas defined in Things.",
             script: areas()
+        ),
+        .init(
+            id: "projects",
+            name: "List Projects",
+            description: "Fetches all projects with their status.",
+            script: listProjects()
+        ),
+        .init(
+            id: "tags",
+            name: "List Tags",
+            description: "Fetches all tags defined in Things.",
+            script: listTags()
+        ),
+        .init(
+            id: "today",
+            name: "List Today",
+            description: "Fetches all tasks in Today list.",
+            script: listToday()
         )
     ]) {
         self.commands = commands
