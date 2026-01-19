@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "425F6164-4E62-4508-AB40-0B7E0910AED5",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ThingsToOrg.xcodeproj",
+      "identifier" : "AECC9DA32E8807EA00B88C60",
+      "name" : "ThingsToOrg"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ThingsToOrg.xcodeproj",
+        "identifier" : "AECC9DBE2E88081200B88C60",
+        "name" : "ThingsToOrgKitTests"
+      }
+    }
+  ],
+  "version" : 1
+}
